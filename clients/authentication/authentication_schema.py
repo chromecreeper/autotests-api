@@ -16,7 +16,7 @@ class LoginRequestSchema(BaseModel):  # Наследуем от BaseModel вме
     """
     Описание структуры запроса на аутентификацию.
     """
-    email: str = Field(default_factory=fake.email)
+    email: EmailStr = Field(default_factory=fake.email)
     password: str = Field(default_factory=fake.password)
 
 # Добавили суффикс Schema вместо Dict
