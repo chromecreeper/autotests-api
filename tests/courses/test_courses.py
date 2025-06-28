@@ -52,17 +52,12 @@ class TestCourses:
 
 
     def test_update_course(self, courses_client: CoursesClient, function_course: CourseFixture):
-        # Формируем данные для обновления
+
         request = UpdateCourseRequestSchema()
-        # Отправляем запрос на обновление курса
         response = courses_client.update_course_api(function_course.response.course.id, request)
-        # Преобразуем JSON-ответ в объект схемы
         response_data = UpdateCourseResponseSchema.model_validate_json(response.text)
 
-        # Проверяем статус-код ответа
         assert_status_code(response.status_code, HTTPStatus.OK)
-        # Проверяем, что данные в ответе соответствуют запросу
         assert_update_course_response(request, response_data)
 
-        # Валидируем JSON-схему ответа
         validate_json_schema(response.json(), response_data.model_json_schema())
