@@ -29,7 +29,7 @@ class GetExercisesResponseSchema(BaseModel):
 
 class CreateExerciseRequestSchema(BaseModel):
     """
-    Описание структуры запроса на создание данных задания
+    Описание структуры запроса на создание данных задания.
     """
     model_config = ConfigDict(populate_by_name=True)
 
@@ -43,13 +43,13 @@ class CreateExerciseRequestSchema(BaseModel):
 
 class CreateExerciseResponseSchema(BaseModel):
     """
-    Описание структуры ответа создания курса.
+    Описание структуры ответа создания задания.
     """
     exercise: ExerciseSchema
 
 class UpdateExerciseRequestSchema(BaseModel):
     """
-    Описание структуры запроса на обновление данных задания
+    Описание структуры запроса на обновление данных задания.
     """
     model_config = ConfigDict(populate_by_name=True)
 
@@ -65,4 +65,11 @@ class UpdateExerciseResponseSchema(BaseModel):
     Описание структуры ответа обновления задания.
     """
     exercise: ExerciseSchema
+
+class GetExerciseResponseSchema(BaseModel):
+    """
+    Описание структуры запроса получения задания.
+    """
+    exercise: ExerciseSchema
+
 
