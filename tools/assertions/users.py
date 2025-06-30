@@ -1,8 +1,10 @@
+import allure
+
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, UserSchema, \
     GetUserResponseSchema
 from tools.assertions.base import assert_equal
 
-
+@allure.step("Check user")  # Добавили allure шаг
 def assert_user(actual: UserSchema, expected: UserSchema):
     """
     Проверяет, что фактические данные пользователя соответствуют ожидаемым.
@@ -17,6 +19,7 @@ def assert_user(actual: UserSchema, expected: UserSchema):
     assert_equal(actual.first_name, expected.first_name, "first_name")
     assert_equal(actual.middle_name, expected.middle_name, "middle_name")
 
+@allure.step("Check get user response")  # Добавили allure шаг
 def assert_get_user_response(
         get_user_response: GetUserResponseSchema,
         create_user_response: CreateUserResponseSchema
@@ -29,6 +32,7 @@ def assert_get_user_response(
     """
     assert_user(get_user_response.user, create_user_response.user)
 
+@allure.step("Check create user response")  # Добавили allure шаг
 def assert_create_user_response(
         request: CreateUserRequestSchema,
         response: CreateUserResponseSchema
