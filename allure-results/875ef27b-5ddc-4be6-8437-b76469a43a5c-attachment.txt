@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEwVDEwOjE4OjEzLjI0MjAzOCIsInVzZXJfaWQiOiJlMTUwNjZkNy04MDQyLTQ0MWYtYjQ1Zi0wMzA1NmFhMzQ5MmQifQ.qTe3b-5y0nphLQW1C2BmoXEBNdE7f2MS3UdmF66G0w8' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Energy community sport whom attorney without between.","maxScore":85,"minScore":6,"description":"Lead type time improve class point move build. Decade event huge million use.\nHair family have wall of. Effect week but individual kitchen other any.","estimatedTime":"9 weeks","previewFileId":"1ade5e01-a0e2-4935-9c17-feee9a6787d9","createdByUserId":"e15066d7-8042-441f-b45f-03056aa3492d"}'

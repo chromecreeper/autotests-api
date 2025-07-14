@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEwVDEwOjE4OjEzLjgwMzA3NCIsInVzZXJfaWQiOiI2Y2E2OWY1My05MzE3LTQ0MzEtOWU4MC03YmJjMTJjMDQzNzMifQ.1dSICr2Y6JLIT7JCKAJws9Ctylsvl7B-YuN-oUBHgQ4' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Score because dog each simply animal believe son.","maxScore":84,"minScore":2,"description":"Onto wind state enter some. Free region glass message forward return manage. You result fine deep word.\nAct follow federal pattern generation body week. Tell suggest certainly true common.","estimatedTime":"8 weeks","previewFileId":"cfa0c316-5664-4054-b71d-892cca22299e","createdByUserId":"6ca69f53-9317-4431-9e80-7bbc12c04373"}'

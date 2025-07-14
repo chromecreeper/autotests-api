@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEwVDEwOjE4OjE0LjM1MDExOCIsInVzZXJfaWQiOiI1M2FmNjM5YS02NDZkLTQzZWYtYjk4My1hN2VlZjg5Zjg4YjAifQ.RuxyRBMxZqGhroF2gnzZuWOcaAgTLVRiMnWPwqbyKRg' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Maybe relationship commercial individual office other election.","courseId":"e62024eb-3876-4ec6-bcd5-1946b748244d","maxScore":56,"minScore":29,"orderIndex":69,"description":"Energy nearly opportunity action report. Couple debate left hold I record particularly. Since clearly write peace six.\nEnergy tend pattern. Spring season whom wish service onto.","estimatedTime":"10 weeks"}'

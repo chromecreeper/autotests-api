@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/0d603236-e919-4bac-b4dc-eb444d004772' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEwVDEwOjE4OjEzLjI0MjAzOCIsInVzZXJfaWQiOiJlMTUwNjZkNy04MDQyLTQ0MWYtYjQ1Zi0wMzA1NmFhMzQ5MmQifQ.qTe3b-5y0nphLQW1C2BmoXEBNdE7f2MS3UdmF66G0w8' \
+  -H 'content-length: 290' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Treat idea wait may.","maxScore":75,"minScore":29,"description":"Natural court others door concern skin myself. Carry sea require blue live point director.\nStrong green wrong share from. Threat mission director politics never. Look work allow foreign.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEwVDEwOjE4OjEyLjE0MjkzNSIsInVzZXJfaWQiOiIwYzVlNDdmNy00ZTY4LTQ4M2UtODUwMC03NjY1YTU3NGE1YjYifQ.mzUZpoZ8xcE3nhhd0IApsY4genT43rqovHn53Y2OmUs' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Head full cultural sister just news.","maxScore":85,"minScore":28,"description":"Base leg sister imagine his.\nAddress value bed she exist together. Especially special middle after western hand personal.","estimatedTime":"7 weeks","previewFileId":"32410a19-e04d-4dcf-a189-293fe989ddc2","createdByUserId":"0c5e47f7-4e68-483e-8500-7665a574a5b6"}'

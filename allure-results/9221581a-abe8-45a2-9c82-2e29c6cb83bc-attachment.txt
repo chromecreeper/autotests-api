@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTEwVDEwOjE4OjE0LjM1MDExOCIsInVzZXJfaWQiOiI1M2FmNjM5YS02NDZkLTQzZWYtYjk4My1hN2VlZjg5Zjg4YjAifQ.RuxyRBMxZqGhroF2gnzZuWOcaAgTLVRiMnWPwqbyKRg' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"House same home wear middle perhaps education.","maxScore":92,"minScore":8,"description":"Question when every minute.\nFear most all. Bag couple toward method control in.","estimatedTime":"10 weeks","previewFileId":"ef7cf973-2210-4dd7-9445-fc847ddc3669","createdByUserId":"53af639a-646d-43ef-b983-a7eef89f88b0"}'
