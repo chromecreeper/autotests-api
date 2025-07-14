@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE2OjA3OjU3Ljk5MDMzMCIsInVzZXJfaWQiOiJjOWIwMTU2My0wOGI0LTRlMDItYWMwZS05NGQ3MjI4Zjc4MTQifQ.-vg4QKHXmLAgC_pMIIwNzjZ7NBRPMv_b7gM_3RCScFM' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Receive reflect interesting state identify federal PM offer.","maxScore":91,"minScore":20,"description":"Within dog our technology. Gun marriage century simply. Audience suggest challenge maybe.\nAssume design newspaper cut past clear identify.","estimatedTime":"10 weeks","previewFileId":"750e87d3-0d9c-49b2-9e17-745a3c75be2d","createdByUserId":"c9b01563-08b4-4e02-ac0e-94d7228f7814"}'

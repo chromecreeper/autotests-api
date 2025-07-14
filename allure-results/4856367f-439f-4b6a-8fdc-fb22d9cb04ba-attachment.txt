@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE1OjUxOjIyLjU3MDE2MyIsInVzZXJfaWQiOiIxM2ZiNTVhMC0wZTUwLTRlN2UtYTJiZC02YWRlODdhNmFmMjcifQ.2r7KFuhcM1MIQ8ZRBV_P7f5z0cB_neS-pVVG0Anro6U' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Open whose baby actually no size.","maxScore":71,"minScore":13,"description":"Gun teacher possible perhaps. Produce protect organization.\nLife defense hair. Special child pay edge return create for. Know need white treatment how perform.","estimatedTime":"6 weeks","previewFileId":"1d874ec8-7fa5-4183-85a0-31e5d1901d49","createdByUserId":"13fb55a0-0e50-4e7e-a2bd-6ade87a6af27"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/eada7185-4888-4298-990d-3b66f0aba8f4' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE1OjUxOjI0LjIwNTUzMCIsInVzZXJfaWQiOiI1YWNkMjE5MS0yMzU3LTQwN2MtODRiMi1iYjJhOTEyMjU2NjkifQ.uMoL88PObnn7TyrNtPvLBwdgs4k5cAwEpr3DAfC_mb4' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Particularly possible education short.","maxScore":64,"minScore":11,"orderIndex":57,"description":"Against both make machine president partner. From computer study life. Open various too break follow hear create.\nMore when good system exist order song. Magazine lead book.","estimatedTime":"9 weeks"}'

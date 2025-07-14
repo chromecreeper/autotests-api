@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/80c9cafd-e8d3-4968-9309-8c57070bb2ff' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE1OjUwOjIxLjQ5MjQ0MCIsInVzZXJfaWQiOiIwYTkyMjUzZS1kYTM3LTRjZGMtODM4Ny1jMjY3YjVhZDRlY2MifQ.txXRMRz5pgYuHc4ExwvjthcNlMJIuPSdgrHXjs_EL-w' \
+  -H 'content-length: 215' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Herself anything trade yeah something.","maxScore":88,"minScore":8,"description":"Do argue but likely. Trade moment let they. Ago despite star election allow hundred commercial.","estimatedTime":"4 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE1OjUwOjI0LjAwNzE2MCIsInVzZXJfaWQiOiIzZDc3YmUyNi1hNWI4LTQ2ODMtYjIzZC02NGZmYzA3MzA5ZjYifQ.N08jcUA7MysOT3AYJqNr-Bx1OU4TyFNnhwSnW25O5Xc' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Network door cultural final.","maxScore":87,"minScore":1,"description":"Whose resource list.\nLead program eight story section long series walk. Team reality point step for us entire. Word newspaper almost may join hold appear. Surface dinner bad.","estimatedTime":"10 weeks","previewFileId":"c24f53dc-a63d-432e-a309-7ebcd58de6e2","createdByUserId":"3d77be26-a5b8-4683-b23d-64ffc07309f6"}'

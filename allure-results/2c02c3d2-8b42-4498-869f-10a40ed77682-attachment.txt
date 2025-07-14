@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE2OjA3OjU5LjQ2NTU0NCIsInVzZXJfaWQiOiJkNDBhNWI1MS1hODU2LTRiOWQtYmY2Zi0wOWNlMTUzNDgxYmIifQ.UPSN1jwj8fLX5avezSi0dd3i2TWxbXjdvHJUTPMQh9U' \
+  -H 'content-length: 418' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Take involve appear today manager.","maxScore":73,"minScore":7,"description":"Goal understand still our call institution although mind. Sell quite vote best government early.\nMajor new send stage first risk. Fly financial on. Score almost race mind traditional stuff.","estimatedTime":"9 weeks","previewFileId":"e7377cf0-2485-4f33-9d03-1fd352d6b4e9","createdByUserId":"d40a5b51-a856-4b9d-bf6f-09ce153481bb"}'

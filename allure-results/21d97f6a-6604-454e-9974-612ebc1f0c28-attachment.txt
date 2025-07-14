@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE2OjA4OjAwLjA3MzEyMyIsInVzZXJfaWQiOiIxOTQ0M2U0My05YjBiLTRlODUtODQxZS00YmEwNzIxODhkZGUifQ.QhJZdmto1UJ_LO7vwldzsw0lffFGlL_GQ0i9UptHFiU' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Move traditional at democratic everyone.","maxScore":93,"minScore":20,"description":"Difficult poor modern seven media interview when.\nTax without nor much now watch.\nCar himself gas very oil. Away color safe seven positive enter practice. Top anything paper.","estimatedTime":"1 weeks","previewFileId":"053d93a6-ed57-43d0-a3a0-330ce68490e4","createdByUserId":"19443e43-9b0b-4e85-841e-4ba072188dde"}'

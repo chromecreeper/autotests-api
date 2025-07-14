@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE1OjUwOjIyLjA3MjA2MiIsInVzZXJfaWQiOiJjNzA5ZjQ1NS1lZjNhLTQ4N2ItYTE3Mi04OTlhODczYzYwNzUifQ.c7gVzT8Ff6zNnLQ2Xo7712uQOjBp8KmuhSfQkh3Avpg' \
+  -H 'content-length: 287' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Law on heart learn.","maxScore":75,"minScore":6,"description":"Mouth listen argue this strong theory. Where force fall ask father sister.","estimatedTime":"8 weeks","previewFileId":"d9ef34b8-3cfd-46b6-8d88-667cffb53dd0","createdByUserId":"c709f455-ef3a-487b-a172-899a873c6075"}'

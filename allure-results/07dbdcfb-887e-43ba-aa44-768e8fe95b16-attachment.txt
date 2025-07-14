@@ -1,0 +1,18 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make PATCH request to http://localhost:8000/api/v1/courses/80c9cafd-e8d3-4968-9309-8c57070bb2ff
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses/80c9cafd-e8d3-4968-9309-8c57070bb2ff
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:47 Check update course response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "title" equals to Herself anything trade yeah something.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 88
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 8
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "description" equals to Do argue but likely. Trade moment let they. Ago despite star election allow hundred commercial.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 4 weeks
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

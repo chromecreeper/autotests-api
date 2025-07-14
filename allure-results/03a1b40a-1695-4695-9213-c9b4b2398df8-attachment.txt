@@ -1,0 +1,19 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make PATCH request to http://localhost:8000/api/v1/courses/03a9e442-0c79-464c-85c6-e3ef5bcb2ec8
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses/03a9e442-0c79-464c-85c6-e3ef5bcb2ec8
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:47 Check update course response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "title" equals to Seem use interest audience ten.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 67
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 4
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "description" equals to Do the on employee draw everyone. Size friend security modern key.
+Throw arm per individual population. Base near community trip type almost.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 8 weeks
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

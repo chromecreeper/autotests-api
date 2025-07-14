@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/77a3a060-259a-423d-bbe6-55dff52b7483' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE2OjA3OjU5LjQ2NTU0NCIsInVzZXJfaWQiOiJkNDBhNWI1MS1hODU2LTRiOWQtYmY2Zi0wOWNlMTUzNDgxYmIifQ.UPSN1jwj8fLX5avezSi0dd3i2TWxbXjdvHJUTPMQh9U' \
+  -H 'content-length: 248' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Side year avoid magazine term civil act newspaper.","maxScore":78,"minScore":6,"description":"That main after lot. Happy none bag evidence.\nTrade child by second responsibility. Medical effort determine again.","estimatedTime":"7 weeks"}'

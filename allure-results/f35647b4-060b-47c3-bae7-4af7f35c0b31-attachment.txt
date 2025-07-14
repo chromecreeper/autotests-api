@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE1OjUwOjIyLjA3MjA2MiIsInVzZXJfaWQiOiJjNzA5ZjQ1NS1lZjNhLTQ4N2ItYTE3Mi04OTlhODczYzYwNzUifQ.c7gVzT8Ff6zNnLQ2Xo7712uQOjBp8KmuhSfQkh3Avpg' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Describe theory expert.","courseId":"66d63af4-73a0-430e-b29d-70c2ce471fa3","maxScore":77,"minScore":1,"orderIndex":71,"description":"Throughout speak over guy. Beyond already positive different resource once. Worry wrong rich national pretty brother event.\nControl size bit once big.","estimatedTime":"5 weeks"}'

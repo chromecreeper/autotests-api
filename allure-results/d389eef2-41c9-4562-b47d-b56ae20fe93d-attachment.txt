@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE1OjUxOjIzLjY3OTE0MCIsInVzZXJfaWQiOiI5ZTgzNjE3MS1mOTRmLTRkOTctYWJmMi0wN2VjNTAzNTg4ZDQifQ.XWXO7DNvTMu8abiNE9gpriKNd1kqk8udK-81mZ8N5a4' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Window administration security hard expert job.","courseId":"5ef2c86c-ee03-4f29-a678-bc4f04b79227","maxScore":84,"minScore":18,"orderIndex":9,"description":"Camera claim too. Heart wall group worker certain.\nEnergy deal deep return know body. Top firm south data that fund. Bill contain minute determine record.","estimatedTime":"4 weeks"}'

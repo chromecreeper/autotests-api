@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE2OjA4OjAxLjI3ODE1NSIsInVzZXJfaWQiOiIxNTEyOGZiOC0yYzU3LTRmMWEtYTcwNC00ZWU4OTI1NzE5OTEifQ.qCy3Th2O8XsvZtHWkhnfhNUSiqRWWTkv3zi3onjdAC4' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Can born least power from yet true over.","maxScore":72,"minScore":13,"description":"Which then wide first speech. Run simple minute east camera meeting watch. Candidate sell oil cause evening pattern hair.","estimatedTime":"5 weeks","previewFileId":"646e728c-99f8-4b5e-8455-3edf38b112b8","createdByUserId":"15128fb8-2c57-4f1a-a704-4ee892571991"}'

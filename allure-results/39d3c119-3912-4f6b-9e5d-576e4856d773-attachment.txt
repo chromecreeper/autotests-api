@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE1OjUxOjIzLjExNjM0MyIsInVzZXJfaWQiOiIxMGI2YjczYS05ZWNiLTQ1ZGMtOGI4MC02YTExYTQ4MTE2NTQifQ.o_E66bXxoDdCDHHbxxA2K10_PQEidh8b6v2sBq2TfkY' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Goal blue phone trial air buy cell.","maxScore":88,"minScore":26,"description":"Relationship do step. Area challenge its. Phone brother thought visit pay.\nSeven lay know couple. Source early property health improve.\nFor suddenly together space certain. Lawyer star material long.","estimatedTime":"7 weeks","previewFileId":"f811e537-1ac4-4602-9035-47513112f74a","createdByUserId":"10b6b73a-9ecb-45dc-8b80-6a11a4811654"}'

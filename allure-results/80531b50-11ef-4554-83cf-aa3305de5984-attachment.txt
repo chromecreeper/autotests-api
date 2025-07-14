@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE1OjUxOjI1LjI5NjkzMyIsInVzZXJfaWQiOiIyNDUyNjVkYS03ZmRlLTRmOGQtODIxNi0yZDM0ZmUxY2ExNWEifQ.76Soyw1PVp_P72cO61S6dC-jVs7jWOt4v3U0QRPTTwI' \
+  -H 'content-length: 312' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Billion major alone consumer month.","courseId":"ff6680a7-bd56-49b1-81e3-eafa63a5086c","maxScore":80,"minScore":18,"orderIndex":78,"description":"Pass after somebody. None movement remain certain. Four property control reveal heavy concern remain your. Safe simple analysis.","estimatedTime":"7 weeks"}'

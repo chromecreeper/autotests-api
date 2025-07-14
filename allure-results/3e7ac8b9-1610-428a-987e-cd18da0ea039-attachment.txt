@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE2OjA3OjU4LjYxNDIzNCIsInVzZXJfaWQiOiJlYWY4MTE5MS1lN2E1LTRmZGYtOWM1Zi05ZDE5ZjZlM2FhMTUifQ.HY07EOOf_8hj2DfwCWbF7Njk7KsWBTBuIDRp41jjCAM' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Former here five how degree support subject.","maxScore":75,"minScore":13,"description":"Rise serve beautiful service. Have system yes which mouth. Start middle religious phone.\nTask class generation east media. Tough black young able away think about instead.","estimatedTime":"8 weeks","previewFileId":"cbefda72-4d2f-4996-a75b-c3d01b69ccd8","createdByUserId":"eaf81191-e7a5-4fdf-9c5f-9d19f6e3aa15"}'

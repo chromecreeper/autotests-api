@@ -1,0 +1,33 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/courses?userId=82888e90-248c-40cc-a93e-e3e7e0660f45
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=82888e90-248c-40cc-a93e-e3e7e0660f45
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:89 Check get courses response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:74 Check that length of "courses" equals to 1
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:64 Check course
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "id" equals to 68fa6e7a-d0ab-4253-8ff7-5dc4f71e736d
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "title" equals to Ago police value.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 92
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 15
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "description" equals to Thing serve it world her level simply. Style benefit common road former position. That skill issue station PM.
+Bed imagine serious coach beyond. Place read station paper if still computer me.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 7 weeks
+[32mINFO    [0m FILES_ASSERTIONS:files.py:50 Check file
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "id" equals to 6bd08ce2-7151-4c1a-8371-28c8cc6f029d
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "url" equals to http://localhost:8000/static/tests/0de09ace-9997-4636-8985-93ec736cc6aa.png
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "filename" equals to 0de09ace-9997-4636-8985-93ec736cc6aa.png
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "directory" equals to tests
+[32mINFO    [0m USERS_ASSERTIONS:users.py:20 Check user
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "id" equals to 82888e90-248c-40cc-a93e-e3e7e0660f45
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "email" equals to dawnbennett@example.net
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "last_name" equals to Horton
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "first_name" equals to Patrick
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals to Andrew
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

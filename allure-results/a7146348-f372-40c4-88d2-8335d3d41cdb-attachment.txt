@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE1OjUwOjIwLjA5MzUxOCIsInVzZXJfaWQiOiI4Mjg4OGU5MC0yNDhjLTQwY2MtYTkzZS1lM2U3ZTA2NjBmNDUifQ.nMtudiw4FnPZRzZv2htJVDkk5YylGElVVVN2b8oEwkc' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ago police value.","maxScore":92,"minScore":15,"description":"Thing serve it world her level simply. Style benefit common road former position. That skill issue station PM.\nBed imagine serious coach beyond. Place read station paper if still computer me.","estimatedTime":"7 weeks","previewFileId":"6bd08ce2-7151-4c1a-8371-28c8cc6f029d","createdByUserId":"82888e90-248c-40cc-a93e-e3e7e0660f45"}'

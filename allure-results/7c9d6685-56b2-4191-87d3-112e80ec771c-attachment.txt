@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE1OjUwOjI0LjU4NDIxNiIsInVzZXJfaWQiOiJjNDUxY2RkOC1hN2RhLTQ1ODMtYmEzNS03M2ViNWIxYWJhZDEifQ.kA2tgd1JRlmfrtlqah41NvpB4LA-0UO23yOgpP3ALCA' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Federal reveal almost.","maxScore":92,"minScore":8,"description":"Fast just Republican change. Policy share various. Minute call onto truth write event happen. Gas employee door shake administration.","estimatedTime":"4 weeks","previewFileId":"4749e87a-3b98-4753-92cb-18b871f156ad","createdByUserId":"c451cdd8-a7da-4583-ba35-73eb5b1abad1"}'

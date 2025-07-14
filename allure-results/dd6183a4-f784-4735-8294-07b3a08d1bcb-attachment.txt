@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/03a9e442-0c79-464c-85c6-e3ef5bcb2ec8' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE1OjUxOjIyLjU3MDE2MyIsInVzZXJfaWQiOiIxM2ZiNTVhMC0wZTUwLTRlN2UtYTJiZC02YWRlODdhNmFmMjcifQ.2r7KFuhcM1MIQ8ZRBV_P7f5z0cB_neS-pVVG0Anro6U' \
+  -H 'content-length: 255' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seem use interest audience ten.","maxScore":67,"minScore":4,"description":"Do the on employee draw everyone. Size friend security modern key.\nThrow arm per individual population. Base near community trip type almost.","estimatedTime":"8 weeks"}'

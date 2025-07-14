@@ -1,7 +1,7 @@
 from typing import Any
 
 import allure
-from jsonschema import validate
+from jsonschema import validate, Draft202012Validator
 from tools.logger import get_logger  # Импортируем функцию для создания логгера
 
 logger = get_logger("SCHEMA_ASSERTIONS")  # Создаем логгер с именем "SCHEMA_ASSERTIONS"

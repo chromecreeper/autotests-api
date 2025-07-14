@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE1OjUwOjI0LjAwNzE2MCIsInVzZXJfaWQiOiIzZDc3YmUyNi1hNWI4LTQ2ODMtYjIzZC02NGZmYzA3MzA5ZjYifQ.N08jcUA7MysOT3AYJqNr-Bx1OU4TyFNnhwSnW25O5Xc' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Writer shake role mother think direction particular during.","courseId":"2eb7f144-3ed4-4002-9372-d1bfe407c766","maxScore":66,"minScore":15,"orderIndex":83,"description":"Political despite should skin. Option put now theory west time level. Medical someone respond western friend growth knowledge provide. Might within trade.","estimatedTime":"3 weeks"}'

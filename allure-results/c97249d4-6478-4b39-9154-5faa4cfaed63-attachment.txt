@@ -1,0 +1,33 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/courses?userId=c9b01563-08b4-4e02-ac0e-94d7228f7814
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=c9b01563-08b4-4e02-ac0e-94d7228f7814
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:89 Check get courses response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:74 Check that length of "courses" equals to 1
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:64 Check course
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "id" equals to 756a305c-c124-4767-abc1-8b08b7d36d30
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "title" equals to Receive reflect interesting state identify federal PM offer.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 91
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 20
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "description" equals to Within dog our technology. Gun marriage century simply. Audience suggest challenge maybe.
+Assume design newspaper cut past clear identify.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 10 weeks
+[32mINFO    [0m FILES_ASSERTIONS:files.py:50 Check file
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "id" equals to 750e87d3-0d9c-49b2-9e17-745a3c75be2d
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "url" equals to http://localhost:8000/static/tests/c2ec5ffd-4cae-4adb-9453-e4b69777df1e.png
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "filename" equals to c2ec5ffd-4cae-4adb-9453-e4b69777df1e.png
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "directory" equals to tests
+[32mINFO    [0m USERS_ASSERTIONS:users.py:20 Check user
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "id" equals to c9b01563-08b4-4e02-ac0e-94d7228f7814
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "email" equals to littlecharles@example.com
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "last_name" equals to Wood
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "first_name" equals to Victor
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals to Julie
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

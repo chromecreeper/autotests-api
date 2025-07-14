@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE1OjUwOjIxLjQ5MjQ0MCIsInVzZXJfaWQiOiIwYTkyMjUzZS1kYTM3LTRjZGMtODM4Ny1jMjY3YjVhZDRlY2MifQ.txXRMRz5pgYuHc4ExwvjthcNlMJIuPSdgrHXjs_EL-w' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Force while family free continue argue general.","maxScore":64,"minScore":30,"description":"Gas population stay growth thing. While issue conference.\nOften understand trouble if.\nMethod kid past. Culture various like specific value off mean very.","estimatedTime":"4 weeks","previewFileId":"c5e8c2c8-1371-4955-8e1b-082b48554b72","createdByUserId":"0a92253e-da37-4cdc-8387-c267b5ad4ecc"}'

@@ -1,0 +1,22 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make PATCH request to http://localhost:8000/api/v1/exercises/eada7185-4888-4298-990d-3b66f0aba8f4
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/eada7185-4888-4298-990d-3b66f0aba8f4
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:84 Check update exercise response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "title" equals to Particularly possible education short.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 64
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 11
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 57
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "description" equals to Against both make machine president partner. From computer study life. Open various too break follow hear create.
+More when good system exist order song. Magazine lead book.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 9 weeks
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

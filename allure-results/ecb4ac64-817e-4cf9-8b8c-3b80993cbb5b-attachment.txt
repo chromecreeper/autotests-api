@@ -1,0 +1,26 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises?courseId=cfaa533a-88c3-47bf-ad98-3ea4441e164f
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=cfaa533a-88c3-47bf-ad98-3ea4441e164f
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:118 Check get exercises response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:74 Check that length of "exercises" equals to 1
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:45 Check exercise
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "id" equals to 9a8f051f-f017-405e-a172-f0d86e62bf97
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "title" equals to Wait since he.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to cfaa533a-88c3-47bf-ad98-3ea4441e164f
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to 53
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to 24
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to 50
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "description" equals to Star stay rock although. Develop spring clearly middle hotel different benefit. Together available describe both.
+With data lead share speech marriage.
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to 9 weeks
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

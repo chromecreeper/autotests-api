@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE2OjA4OjAwLjcyOTQwMCIsInVzZXJfaWQiOiIzOTVjODU4Yy04ZThkLTRmODgtOWE1ZC0zMTE0Y2IxYTE0YWEifQ.1OMfgQ_h7-tDkciIabGbo1sGjo-LC5zjmG35koLvy6U' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nature camera story need certainly anyone do.","maxScore":67,"minScore":17,"description":"Treat tell they itself according safe financial. One politics home nature. Something door I from. Fact strong remember total option civil military.","estimatedTime":"8 weeks","previewFileId":"472d46cb-6051-4970-9b02-db71f9f36848","createdByUserId":"395c858c-8e8d-4f88-9a5d-3114cb1a14aa"}'

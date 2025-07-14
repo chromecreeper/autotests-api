@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE1OjUxOjIzLjY3OTE0MCIsInVzZXJfaWQiOiI5ZTgzNjE3MS1mOTRmLTRkOTctYWJmMi0wN2VjNTAzNTg4ZDQifQ.XWXO7DNvTMu8abiNE9gpriKNd1kqk8udK-81mZ8N5a4' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Night attorney often.","maxScore":63,"minScore":19,"description":"Pull soldier say most across. Call record city rich worker character behind.\nGrow PM what suddenly though worker baby.","estimatedTime":"9 weeks","previewFileId":"2d2838f1-01da-4d25-b83a-d70b96468a00","createdByUserId":"9e836171-f94f-4d97-abf2-07ec503588d4"}'

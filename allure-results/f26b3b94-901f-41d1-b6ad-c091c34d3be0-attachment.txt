@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE2OjA4OjAxLjgzOTQ3NSIsInVzZXJfaWQiOiI0NjBkYWEwNi05MDAwLTQzZDEtYmU5MS1mZWVlNGNjODU4NDQifQ.6i5mHeDfeUFn5lLYPmXqoyT2TxR_eeWqr5dIMUc5H_U' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Someone score yes south two.","maxScore":98,"minScore":18,"description":"Source north myself soon particular their. Listen chance this sister without project. Him sell cut. Hotel age away drive member could fine difference.","estimatedTime":"5 weeks","previewFileId":"c1f9f759-b79b-422a-8e51-d7a52398da41","createdByUserId":"460daa06-9000-43d1-be91-feee4cc85844"}'

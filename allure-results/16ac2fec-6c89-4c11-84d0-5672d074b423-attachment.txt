@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE2OjA4OjAyLjM4NDQyNiIsInVzZXJfaWQiOiJhNmVmMDUwNC00MDc4LTRhODctYmFjZC05NWRkZWZhZWRmZWQifQ.8Qe-AcbjQw23LrM_B7cVuyz24i797jKZXE92EJt4DBs' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Market thank help than cause.","maxScore":92,"minScore":4,"description":"Direction power nor me want may hundred us. Mother property too beautiful contain.\nFinancial pretty the miss cold citizen. Soldier member past explain data.\nAttack price establish somebody.","estimatedTime":"3 weeks","previewFileId":"0e53fd26-25a6-48c1-81bf-9da29904be78","createdByUserId":"a6ef0504-4078-4a87-bacd-95ddefaedfed"}'

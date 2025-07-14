@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTE0VDE1OjUxOjIxLjQ1ODQ0MiIsInVzZXJfaWQiOiIyOTE2YWZjMy03MDRmLTRkNmItOTJkYy01YWYzMzYxMmM2YTQifQ.A-7ayeHiaKQlQb9knv6AHoB_CjpD_NyzDKY26_pNW18' \
+  -H 'content-length: 431' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Every bad simply type bring various.","maxScore":85,"minScore":30,"description":"Trial law ok join wish whose. Think cold at that phone.\nFour wish reflect. Production especially century book usually heavy program. Heavy few work job say. Remain page tree billion address throw no.","estimatedTime":"8 weeks","previewFileId":"65ecbecd-e41f-4155-a01c-a7ccbc406fe4","createdByUserId":"2916afc3-704f-4d6b-92dc-5af33612c6a4"}'
